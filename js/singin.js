@@ -39,7 +39,7 @@ submitBtn.addEventListener('click', function () {
     inputemail.value = '';
     inputpassword.value = '';
     alert("Form submitted successfully!");
-    window.location.href = 'index.html';
+    window.location.href = './index.html';
 });
 function validateEmail(email) {
     let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
